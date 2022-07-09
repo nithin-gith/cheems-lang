@@ -1,6 +1,9 @@
 input = document.querySelector('.input')
 output = document.querySelector('.output')
 
+input.addEventListener('click',()=>{
+    input.value=""
+})
 
 input.addEventListener("keyup", function(e) {
     text = input.value.toLowerCase().split(' ')
